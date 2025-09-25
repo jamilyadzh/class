@@ -46,3 +46,11 @@ function priceAfterCategoryDiscount(product) {
 
 console.log(priceAfterCategoryDiscount(products[0]));
 
+// 3
+function findProductById(id) {
+for (let p of products) {
+    if (p.id === id) return p;
+}
+return null;
+}
+
